@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 align="center"> Pendaftaran Mahasiswa Baru </h1>
+
+    <form action="#" method="GET">
+        <p>
+        <label for="Nama Lengkap">Nama Lengkap :</label>
+        <input placeholder="" required/>
+        </p>
+        <p>
+        <label for="Jurusan">Jurusan :</label>
+        <select id="Jurusan" name="Jurusan" required>
+        <option value="volvo">Teknik Informatika</option>
+        <option value="saab">Sistem Informasi</option>
+        <option value="fiat">Akuntansi</option>
+        <option value="audi">Administrasi Bisnis</option>
+        </select>
+        </p>
+        <p>
+        <label>Tempat / Tanggal Lahir :</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        </p>
+        <p>
+        <label for="NIK">NIK :</label>
+        <input placeholder="" required/> 
+        </p>
+        <p>
+        <label for="Alamat Rumah">Alamat Rumah :</label>
+        <input placeholder="" required/> 
+        </p>
+        <p>
+        <label for="Tempat / Tanggal Lahir">No. Telp :</label>
+        <input placeholder="" required/> 
+        </p>
+        <p>
+        <label for="Tempat / Tanggal Lahir">Nilai Rapot :</label>
+        <input placeholder="" required/> 
+        </p>
+        <p>
+        <label for="Tempat / Tanggal Lahir">Asal Sekolah :</label>
+        <input placeholder="" required/> 
+        </p>
+        <p>
+        <label for="Nilai Rapot">Nilai Rapot :</label>
+        <input type="file" value="Choosen File">
+        </p>
+        <label>Gender :</label>
+        <input type="radio" name="gender" value="male" checked> Pria
+        <input type="radio" name="gender" value="female" checked> Wanita
+        <br>
+        <br>
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
